@@ -1,0 +1,51 @@
+name: "Forgejo-EditIssue"
+description: "A Github Action to edit issues on you forgejo instance via API."
+
+inputs:
+  api_url:
+    description: "The base URL of the Forgejo API."
+    required: true
+  token:
+    description: "The authentication token for accessing the Forgejo API."
+    required: true
+  repository:
+    description: "The repository in the format owner/repo."
+    required: true
+  index:
+    description: "The index number of the issue to edit."
+    required: true
+  assignees:
+    description: "The asignees of the issue in format username,username."
+    required: false
+  body:
+    description: "The body of the issue."
+    required: false
+  due_date:
+    description: "The due date for the issue in format YYYY-MM-DD."
+    required: false
+  milestone:
+    description: "The id of the milestone to assign."
+    required: false
+  ref:
+    description: "The branch to reference in format branchname"
+    required: false
+  state:
+    description: "The state of the issue. Options: open/closed"
+    required: false
+  title:
+    description: "The title of the issue."
+    required: false
+  unset_due_date:
+    description: "The boolean to unset the due_date. Options: true"
+    required: false
+  debug:
+    description: "The boolean to enable debug output. Options: true"
+    required: false
+
+outputs:
+  result:
+    description: "The result of the action, including success or error messages."
+    value: "${{ steps.run.outputs.result }}"
+runs:
+  using: "node12"
+  main: "dist/index.js"

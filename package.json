@@ -1,0 +1,28 @@
+{
+  "name": "forgejo-editissue",
+  "version": "1.0.0",
+  "description": "A Github Action to edit issues on you forgejo instance via API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timherrm/forgejo-EditIssue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/timherrm/forgejo-EditIssue/issues"
+  },
+  "homepage": "https://github.com/timherrm/forgejo-EditIssue#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "@vercel/ncc": "^0.38.3",
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {}
+}

@@ -1,6 +1,6 @@
 # forgejo-EditIssue
 
-A Github Action to edit issues on you forgejo instance via API.
+A Github Action to edit issues on your forgejo instance via API.
 
 ## Usage/Examples
 

@@ -1,7 +1,7 @@
 {
   "name": "forgejo-editissue",
   "version": "1.0.0",
-  "description": "A Github Action to edit issues on you forgejo instance via API.",
+  "description": "A Github Action to edit issues on your forgejo instance via API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

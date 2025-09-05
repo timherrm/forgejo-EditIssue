@@ -1,5 +1,5 @@
 name: "Forgejo-EditIssue"
-description: "A Github Action to edit issues on you forgejo instance via API."
+description: "A Github Action to edit issues on your forgejo instance via API."
 branding:
   icon: 'terminal'
   color: 'purple'

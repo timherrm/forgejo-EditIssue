@@ -20,7 +20,7 @@
   "homepage": "https://github.com/timherrm/forgejo-EditIssue#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1",
+    "@actions/github": "^9.0.0",
     "@vercel/ncc": "^0.38.3",
     "axios": "^1.11.0"
   },
